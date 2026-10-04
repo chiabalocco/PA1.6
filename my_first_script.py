@@ -2,7 +2,6 @@ import numpy as np
 
 def nerdy_computation(x):
     """Returns the sum of the squares of the first x natural numbers using numpy."""
-    # YOUR CODE HERE
     numbers = np.arange(1, x + 1)
     return np.sum(numbers ** 2)
 
